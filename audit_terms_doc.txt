@@ -1,8 +1,4 @@
-Step-by-Step Audit Process
-Reviewed Prototypes: Analyzed code for GDPR triggers (e.g., if CSVs contain personal data like names/emails, processing must align with principles like data minimization and consent).mobidev.biz Confirmed no scraping (no imports like requests or selenium). Ethical checks: Assessed for bias (e.g., in rules/thresholds), transparency (logging/consent prompts already included), and harm (e.g., inaccurate outputs affecting decisions).aalpha.net
-Identified Risks: Low overall, as scripts are local-only, but user-input CSVs could include PII, invoking GDPR if EU data subjects are involved (e.g., hashing helps pseudonymize but doesn't eliminate need for user compliance).markaicode.com Ethical risks: Selling could expose buyers to compliance failures or automation errors.logicmanager.com
-Mitigations: Build on plan enhancements (consent flags, hashing). Recommend bundling with terms docs for sales.
-Overall Assessment: Risks are minimal with current safeguards; prioritize low-risk niches like these. Update plan under "Risk Audit Updates" with findings.
+
 
 Legal/Ethical Risks Checklist
 This table audits each prototype, with "Low/Medium/High" ratings based on 2025 trends (e.g., AI scrutiny but low here since no AI; focus on local PII).edpb.europa.eubigid.com Includes mitigations tied to ethics checklist.
